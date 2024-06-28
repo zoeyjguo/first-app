@@ -1,4 +1,5 @@
 <section class="listing">
+  <a [routerLink]="['/details', housingLocation.id]">
     <img
       class="listing-photo"
       [src]="housingLocation.photo"
@@ -9,5 +10,5 @@
     <div id="row" class="listing-location">
         <div class="content">{{ housingLocation.city }}, {{ housingLocation.state }}</div>
     </div>
-    <a class="content" [routerLink]="['/details', housingLocation.id]">Learn More</a>
+  </a>
   </section>
