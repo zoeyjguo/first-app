@@ -13,6 +13,9 @@ a {
     border-radius: 30px;
     padding-bottom: 30px;
 }
+.listing:hover {
+    opacity: 0.6;
+}
 .listing-heading {
     color: var(--primary-color);
     padding: 0px 20px 0 20px;
